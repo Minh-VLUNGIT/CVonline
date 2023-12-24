@@ -50,16 +50,6 @@ const datain = [
     tech: "REACTJS (FRONT-END) • ASP.NET CORE (BACK-END)",
   },
   {
-    id: "23",
-    title: "WEBSITE GIỚI THIỆU THÔNG TIN , DỰ ÁN CÁ NHÂN",
-    decription:
-      '<p>Đ&acirc;y l&agrave; trang web được x&acirc;y dựng trong qu&aacute; tr&igrave;nh tự học VueJS v&agrave; Golang của t&ocirc;i nhằm cũng cố kiến thức v&agrave; &aacute;p dụng kiến thức đ&atilde; học v&agrave;o một dự &aacute;n thực tế.</p>\n<p style="text-align: center;">GIAO DIỆN</p>\n<p style="text-align: left;">1. Giới Thiệu: hiển thị tất cả th&ocirc;ng tin về t&ocirc;i</p>\n<p style="text-align: left;"><img style="display: block; margin-left: auto; margin-right: auto;"  src=" https://github-production-user-asset-6210df.s3.amazonaws.com/83760061/292615330-e0755887-81d6-4e05-b34b-e41161f86f8f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231224T194511Z&X-Amz-Expires=300&X-Amz-Signature=d7e6046d57e92728e86c45eb3186f171d7d00bfe374017d97d91547ed7413531&X-Amz-SignedHeaders=host&actor_id=83760061&key_id=0&repo_id=672719577" alt="image" width="1305" height="657"></p>\n<p style="text-align: left;">&nbsp;</p>\n<p style="text-align: left;">2. Dự &aacute;n: hiển thị một số dự &aacute;n m&agrave; t&ocirc;i đ&atilde; x&acirc;y dựng hoặc tham gia.</p>\n<p style="text-align: left;"><img style="display: block; margin-left: auto; margin-right: auto;"  src=" https://github-production-user-asset-6210df.s3.amazonaws.com/83760061/292615462-f410c739-64e8-49bb-8549-16c64b5aa88d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231224T194515Z&X-Amz-Expires=300&X-Amz-Signature=f37290a130ef03a1d00601af8a6b304ed714498d8defc6ddbab6e877dd4ec2a4&X-Amz-SignedHeaders=host&actor_id=83760061&key_id=0&repo_id=672719577" alt="image" width="1315" height="656"></p>\n<p style="text-align: left;">3. Xem Dự &aacute;n</p>\n<p style="text-align: left;"><img style="display: block; margin-left: auto; margin-right: auto;"  src=" https://github-production-user-asset-6210df.s3.amazonaws.com/83760061/292615519-cffb7a93-e378-4104-8b62-b20fa8478de0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231224T194519Z&X-Amz-Expires=300&X-Amz-Signature=9ad88cba1e0ed08c924d28a09fa061baf66ac1ce185154452e70ab03265ec6b7&X-Amz-SignedHeaders=host&actor_id=83760061&key_id=0&repo_id=672719577" alt="image" width="1313" height="653"></p>',
-    day: "20 / 12 /2023 - 23 / 12 / 2023",
-    role: "FULL STACK",
-    member: 1,
-    tech: "VUEJS (FRONT-END) • GOLANG (BACK-END)",
-  },
-  {
     id: "22",
     title: "WEBSITE QUẢN LÝ KẾ HOẠCH HỌC TẬP (ĐỒ ÁN TỐT NGHIỆP)",
     decription:
@@ -68,6 +58,16 @@ const datain = [
     role: "FULL STACK",
     member: 1,
     tech: "REACTJS (FRONT-END) • ASP.NET CORE 6 (BACK-END)",
+  },
+  {
+    id: "23",
+    title: "WEBSITE GIỚI THIỆU THÔNG TIN , DỰ ÁN CÁ NHÂN",
+    decription:
+      '<p>Đ&acirc;y l&agrave; trang web được x&acirc;y dựng trong qu&aacute; tr&igrave;nh tự học VueJS v&agrave; Golang của t&ocirc;i nhằm cũng cố kiến thức v&agrave; &aacute;p dụng kiến thức đ&atilde; học v&agrave;o một dự &aacute;n thực tế.</p>\n<p style="text-align: center;">GIAO DIỆN</p>\n<p style="text-align: left;">1. Giới Thiệu: hiển thị tất cả th&ocirc;ng tin về t&ocirc;i</p>\n<p style="text-align: left;"><img style="display: block; margin-left: auto; margin-right: auto;"  src=" https://github-production-user-asset-6210df.s3.amazonaws.com/83760061/292615330-e0755887-81d6-4e05-b34b-e41161f86f8f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231224T194511Z&X-Amz-Expires=300&X-Amz-Signature=d7e6046d57e92728e86c45eb3186f171d7d00bfe374017d97d91547ed7413531&X-Amz-SignedHeaders=host&actor_id=83760061&key_id=0&repo_id=672719577" alt="image" width="1305" height="657"></p>\n<p style="text-align: left;">&nbsp;</p>\n<p style="text-align: left;">2. Dự &aacute;n: hiển thị một số dự &aacute;n m&agrave; t&ocirc;i đ&atilde; x&acirc;y dựng hoặc tham gia.</p>\n<p style="text-align: left;"><img style="display: block; margin-left: auto; margin-right: auto;"  src=" https://github-production-user-asset-6210df.s3.amazonaws.com/83760061/292615462-f410c739-64e8-49bb-8549-16c64b5aa88d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231224T194515Z&X-Amz-Expires=300&X-Amz-Signature=f37290a130ef03a1d00601af8a6b304ed714498d8defc6ddbab6e877dd4ec2a4&X-Amz-SignedHeaders=host&actor_id=83760061&key_id=0&repo_id=672719577" alt="image" width="1315" height="656"></p>\n<p style="text-align: left;">3. Xem Dự &aacute;n</p>\n<p style="text-align: left;"><img style="display: block; margin-left: auto; margin-right: auto;"  src=" https://github-production-user-asset-6210df.s3.amazonaws.com/83760061/292615519-cffb7a93-e378-4104-8b62-b20fa8478de0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231224T194519Z&X-Amz-Expires=300&X-Amz-Signature=9ad88cba1e0ed08c924d28a09fa061baf66ac1ce185154452e70ab03265ec6b7&X-Amz-SignedHeaders=host&actor_id=83760061&key_id=0&repo_id=672719577" alt="image" width="1313" height="653"></p>',
+    day: "20 / 12 /2023 - 23 / 12 / 2023",
+    role: "FULL STACK",
+    member: 1,
+    tech: "VUEJS (FRONT-END) • GOLANG (BACK-END)",
   },
 ];
 
