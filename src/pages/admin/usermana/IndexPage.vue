@@ -191,6 +191,9 @@
                   <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-left">
                     Công Nghệ: ReactJS (FRONT-END) & ASP.NET Core(BACK-END)
                   </p>
+                  <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-left">
+                    Mô Tả: Chỉnh sửa và fix lỗi theo yêu cầu từ phía khách hàng và xây dựng giao diện website quản lý và điều hành của riêng công ty.
+                  </p>
                 </li>
                 <li class="mb-10 ml-6">
                   <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
