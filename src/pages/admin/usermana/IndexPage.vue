@@ -192,7 +192,7 @@
                     Công Nghệ: ReactJS (FRONT-END) & ASP.NET Core(BACK-END)
                   </p>
                   <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-left">
-                    Mô Tả: Chỉnh sửa / fix lỗi theo yêu cầu từ phía khách hàng và xây dựng giao diện website quản lý và điều hành của riêng công ty.
+                    Mô Tả: Chỉnh sửa / fix lỗi Website theo yêu cầu từ phía khách hàng và xây dựng giao diện website quản lý và điều hành của riêng công ty.
                   </p>
                 </li>
                 <li class="mb-10 ml-6">
