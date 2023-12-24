@@ -10,7 +10,7 @@
             
         </div>
 
-        <div class="relative mb-auto" v-if="load">
+        <div class="relative mb-auto" >
             <div>
                 <div class="container py-12">
                     <div class="flex flex-wrap -m-4">
@@ -22,7 +22,7 @@
                                             <h2 class="text-2xl font-bold leading-8 tracking-tight ">{{ todo.title }}</h2>
                                         </div>
                                         <div class="flex flex-row justify-between" :style="{cursor:'pointer'}">
-                                            <a  v-on:click="reverseMessage('/CVvn/project/'+todo.id)" class="text-sm text-gray-500 transition hover:text-gray-600"  >                  
+                                            <a  v-on:click="reverseMessage('/project/'+todo.id)" class="text-sm text-gray-500 transition hover:text-gray-600"  >                  
                                                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" >
                                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                                                 </svg>
@@ -49,12 +49,13 @@
 </template>
 
 <script>
-import axios from 'axios';
+import datain from "../../../assets/database.js"
+
 export default {
     data() {
         return {
-            listproject:[],
-            load:false
+            listproject:datain,
+
         };
     },
     methods: {
@@ -62,12 +63,6 @@ export default {
         this.$router.push(link); // Chuyển hướng đến todo.link
         },
     },
-    created() {
-    axios.get(`http://localhost:5000/cv/project`)
-    .then(response => {
-      this.listproject = response.data.data
-      this.load=true
-    })
-    },
+   
 }
 </script>
