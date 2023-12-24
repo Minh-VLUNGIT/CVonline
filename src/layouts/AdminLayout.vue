@@ -21,8 +21,8 @@ export default {
   data() {
     return {
       todos: [
-        { text: 'Giới Thiệu', id: 3 , link:'/CVvn/home'},
-        { text: 'Dự Án', id: 2, link:'/CVvn/project' },
+        { text: 'Giới Thiệu', id: 3 , link:'/'},
+        { text: 'Dự Án', id: 2, link:'/project' },
       ],
       choose:3
 

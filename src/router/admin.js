@@ -1,10 +1,10 @@
 const admin = [
   {
-    path: "/CVvn",
+    path: "/",
     component: () => import("../layouts/AdminLayout.vue"),
     children: [
       {
-        path: "home",
+        path: "",
         name: "admin-users",
         component: () => import("../pages/admin/usermana/IndexPage.vue"),
       },
